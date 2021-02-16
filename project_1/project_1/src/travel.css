@@ -1,0 +1,121 @@
+body{ 
+    margin: 5px;    
+    padding: 5px;
+    min-width: 100%;
+    min-height: 80%;
+}
+
+.travel-app{
+    border-width: 1px;
+    border-style: hidden;
+    border-color: #08305D;
+    border-radius: 10px;
+    box-shadow: 2px 3px 20px 10px #08305D;
+    background-image: url(./images/travel.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    min-width: 80%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.display-panel{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+
+}
+
+.trips{
+    list-style: none;
+}
+
+.trip{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+
+}
+
+.avatar{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #214f61;
+    border-radius: 25%;
+    width: 150px;
+    height: 100px;
+}
+
+.trip-details{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #214f61;
+    font-size: 16px;   
+    width: 60%;
+    height: 30%;
+    margin: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+p{
+    margin: 3px ;
+    padding-left: 3px;
+}
+
+.trip-location{
+    color: black;
+}
+
+.add-trip{
+    width: 90px;
+    height: 25px;
+    background: #0766A0;
+    border-color: #0766A0;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding-right: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.user-logout{
+    width: 70px;
+    height: 25px;
+    background: #0766A0;
+    border-color: #0766A0;
+    border-width: 2px;
+    margin-right: 15px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.outgoing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+}
+
+.error-message{
+    color: red;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 0.7em;
+    margin: auto;
+    width: 60%;
+    height: 20px;
+}
